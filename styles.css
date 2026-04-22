@@ -412,6 +412,13 @@ h3 {
   color: var(--muted);
 }
 
+.faq-list p a {
+  color: var(--primary-strong);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .download {
   padding: 44px 0 82px;
 }
