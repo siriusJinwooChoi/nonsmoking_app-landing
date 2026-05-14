@@ -65,7 +65,7 @@
             },
             "downloadUrl": "https://play.google.com/store/apps/details?id=com.cjw.nonsmoking",
             "installUrl": "https://apps.apple.com/kr/app/%EA%B8%88%EC%97%B0%EB%B1%85%ED%81%AC/id6762129911",
-            "screenshot": "https://www.nonsmokingbank.com/asset/main_view/screen_dashboard.png"
+            "screenshot": "https://www.nonsmokingbank.com/asset/main_view/screen_attendance.png"
           },
           {
             "@type": "WebSite",
@@ -362,13 +362,14 @@
             <p class="eyebrow">앱 화면 갤러리</p>
             <h2>실제 금연뱅크 화면으로 보는 주요 기능</h2>
           </div>
+          <!-- CDN 이미지: 파일명과 캡처 화면이 일치하지 않음(메인=screen_attendance, 출석=dashboard, 건강=cigarette_collect, 담타=screen_game, 드림카=screen_tree, 수집=encyclopedia, 도감=health_improvement, 게임=dreamcar). 나무 단독 스샷 없음. -->
           <div class="preview-grid">
             <article class="preview-card">
               <h3>금연 현황(메인)</h3>
               <p>금연 시간, 금연 이유, 목표·참은 담배, 절약·환전 가능 금액을 한 화면에서 확인합니다.</p>
               <figure class="shot" data-label="금연 현황 화면">
                 <img
-                  src="./asset/main_view/screen_dashboard.png"
+                  src="./asset/main_view/screen_attendance.png"
                   alt="금연뱅크 메인 금연 현황 대시보드 화면"
                   loading="lazy"
                   onerror="this.style.display='none'; this.parentElement.classList.add('empty');"
@@ -380,32 +381,8 @@
               <p>28일 출석판과 일일 보상, 7일 주기 보너스로 꾸준함을 시각화합니다.</p>
               <figure class="shot" data-label="출석 화면">
                 <img
-                  src="./asset/main_view/screen_attendance.png"
+                  src="./asset/main_view/screen_dashboard.png"
                   alt="금연뱅크 출석 및 금연코인 화면"
-                  loading="lazy"
-                  onerror="this.style.display='none'; this.parentElement.classList.add('empty');"
-                />
-              </figure>
-            </article>
-            <article class="preview-card">
-              <h3>나의 성장 나무</h3>
-              <p>2분마다 1ml씩 차오르는 물로 나무를 키우고, 최대 5단계까지 성장시킵니다.</p>
-              <figure class="shot" data-label="성장 나무 화면">
-                <img
-                  src="./asset/main_view/screen_tree.png"
-                  alt="금연뱅크 나의 성장 나무 화면"
-                  loading="lazy"
-                  onerror="this.style.display='none'; this.parentElement.classList.add('empty');"
-                />
-              </figure>
-            </article>
-            <article class="preview-card">
-              <h3>나의 드림카</h3>
-              <p>모은 코인으로 10단계까지 차량을 업그레이드하며 장기 목표를 만듭니다.</p>
-              <figure class="shot" data-label="나의 드림카 화면">
-                <img
-                  src="./asset/main_view/screen_dreamcar.png"
-                  alt="금연뱅크 나의 드림카 화면"
                   loading="lazy"
                   onerror="this.style.display='none'; this.parentElement.classList.add('empty');"
                 />
@@ -416,8 +393,32 @@
               <p>금연 진행률과 시간대별 건강 회복 단계를 체크리스트로 확인합니다.</p>
               <figure class="shot" data-label="건강 개선 화면">
                 <img
-                  src="./asset/main_view/screen_health_improvement.png"
+                  src="./asset/main_view/screen_cigarette_collect.png"
                   alt="금연뱅크 건강 개선 현황 화면"
+                  loading="lazy"
+                  onerror="this.style.display='none'; this.parentElement.classList.add('empty');"
+                />
+              </figure>
+            </article>
+            <article class="preview-card">
+              <h3>담타시간(커뮤니티)</h3>
+              <p>담배 타임 루틴과 실시간 채팅으로, 갈망이 올 때 잠시 함께 버티는 커뮤니티 공간입니다.</p>
+              <figure class="shot" data-label="담타시간 화면">
+                <img
+                  src="./asset/main_view/screen_game.png"
+                  alt="금연뱅크 담타시간 커뮤니티 화면"
+                  loading="lazy"
+                  onerror="this.style.display='none'; this.parentElement.classList.add('empty');"
+                />
+              </figure>
+            </article>
+            <article class="preview-card">
+              <h3>나의 드림카</h3>
+              <p>모은 코인으로 10단계까지 차량을 업그레이드하며 장기 목표를 만듭니다.</p>
+              <figure class="shot" data-label="나의 드림카 화면">
+                <img
+                  src="./asset/main_view/screen_tree.png"
+                  alt="금연뱅크 나의 드림카 화면"
                   loading="lazy"
                   onerror="this.style.display='none'; this.parentElement.classList.add('empty');"
                 />
@@ -428,7 +429,7 @@
               <p>수집 가능 시간대에 지포라이터로 수집을 시도하고, 금연코인으로 도전 횟수를 운영합니다.</p>
               <figure class="shot" data-label="담배 수집 화면">
                 <img
-                  src="./asset/main_view/screen_cigarette_collect.png"
+                  src="./asset/main_view/screen_encyclopedia.png"
                   alt="금연뱅크 담배 수집 화면"
                   loading="lazy"
                   onerror="this.style.display='none'; this.parentElement.classList.add('empty');"
@@ -440,7 +441,7 @@
               <p>획득한 담배갑을 슬롯으로 모으며 수집 진행도를 한눈에 봅니다.</p>
               <figure class="shot" data-label="도감 화면">
                 <img
-                  src="./asset/main_view/screen_encyclopedia.png"
+                  src="./asset/main_view/screen_health_improvement.png"
                   alt="금연뱅크 담배 도감 화면"
                   loading="lazy"
                   onerror="this.style.display='none'; this.parentElement.classList.add('empty');"
@@ -452,7 +453,7 @@
               <p>숫자·단어·낙하·완벽 타이밍 등 미니게임과 랭킹으로 갈망 순간을 전환합니다.</p>
               <figure class="shot" data-label="게임 화면">
                 <img
-                  src="./asset/main_view/screen_game.png"
+                  src="./asset/main_view/screen_dreamcar.png"
                   alt="금연뱅크 게임 목록 및 랭킹 화면"
                   loading="lazy"
                   onerror="this.style.display='none'; this.parentElement.classList.add('empty');"
@@ -518,8 +519,7 @@
             <details>
               <summary>iPhone에서도 금연뱅크를 쓸 수 있나요?</summary>
               <p>
-                네. App Store에서
-                <a
+                네. App Store에서 <a
                   href="https://apps.apple.com/kr/app/%EA%B8%88%EC%97%B0%EB%B1%85%ED%81%AC/id6762129911"
                   target="_blank"
                   rel="noopener noreferrer"
